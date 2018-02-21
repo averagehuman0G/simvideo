@@ -1,0 +1,28 @@
+{
+  "name": "simvideo",
+  "version": "1.0.0",
+  "description": "A videochat app using WebRTC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanv3232/simvideo.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "video",
+    "audio",
+    "chat",
+    "express",
+    "node"
+  ],
+  "author": "Jonathan Vargas <me@jonathan-vargas.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanv3232/simvideo/issues"
+  },
+  "homepage": "https://github.com/jonathanv3232/simvideo#readme"
+}
