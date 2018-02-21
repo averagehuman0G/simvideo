@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/jonathanv3232/simvideo/issues"
   },
-  "homepage": "https://github.com/jonathanv3232/simvideo#readme"
+  "homepage": "https://github.com/jonathanv3232/simvideo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
