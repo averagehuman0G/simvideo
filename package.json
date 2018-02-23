@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/jonathanv3232/simvideo#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "webrtc-adapter": "^6.1.1"
   }
 }

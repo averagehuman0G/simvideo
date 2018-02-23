@@ -9,14 +9,17 @@ const contraints = {
 };
 
 const remoteVideElement = document.querySelector('#remoteVideo');
+const remoteAudioElement = document.querySelector('#remoteAudio');
 
 const successCb = stream => {
   //makes the stram global so that you can play with it in the console
   window.stream = stream;
   if (window.URL) {
     remoteVideElement.src = window.URL.createObjectURL(stream);
+    remoteAudioElement.src = window.URL.createObjectURL(stream);
   } else {
     remoteVideElement.src = stream;
+    remoteAudioElement.src = stream;
   }
 };
 
